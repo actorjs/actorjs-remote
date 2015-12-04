@@ -1,0 +1,24 @@
+{
+  "name": "actorjs-remote",
+  "version": "1.0.0",
+  "description": "ActorJs Remote",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/actorjs/actorjs-remote.git"
+  },
+  "devDependencies": {
+    "express": "^4.13.3",
+    "gulp": "^3.9.0",
+    "gulp-babel": "^6.1.1",
+    "webpack": "^1.12.9",
+    "nodeunit": ">= 0.7.4"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "test": "nodeunit test"
+  },
+  "dependencies": {
+    "objectstream": "0.0.4"
+  }
+}
